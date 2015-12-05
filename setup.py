@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
-setup(name='flask-project',
+setup(name='flask_project',
       version='0.1',
       description='A command line tool to create a skeleton flask project',
-      url='https://github.com/sumanthns/flask-project.git',
+      url='https://github.com/sumanthns/flask_project.git',
       author='Sumanth Nagadavalli Suresh',
       author_email='nsready@gmail.com',
       license='MIT',
@@ -12,6 +12,6 @@ setup(name='flask-project',
           'jinja2',
       ],
       entry_points= {
-          'console_scripts': ['flask-project=flask_project:main'],
+          'console_scripts': ['flask-project=flask_project.flask_project:main'],
       },
       zip_safe=False)
