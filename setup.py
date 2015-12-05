@@ -12,6 +12,6 @@ setup(name='flask-project',
           'jinja2',
       ],
       entry_points= {
-          'console_scripts': ['flask-project=flask-project:main'],
+          'console_scripts': ['flask-project=flask_project:main'],
       },
       zip_safe=False)
