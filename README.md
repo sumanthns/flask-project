@@ -20,32 +20,32 @@ Explanation
 
 1. This will create a skeleton project structure in this format:
 
-project_name/
-    app/
-        static/
-        templates -
-        __init__.py
-        forms.py
-        views.py
-        models.py
-    db_repository/
-    config.py
-    run.py
-    tests.py
-    db_create.py
-    db_migrate.py
-    db_upgrade.py
-    db_downgrade.py
+    project_name/  
+        --  app/  
+            ----  static/  
+            ----  templates/  
+            ----  __init__.py  
+            ----  forms.py  
+            ----  views.py  
+            ----  models.py  
+        --  db_repository/  
+        --  config.py  
+        --  run.py  
+        --  tests.py  
+        --  db_create.py  
+        --  db_migrate.py  
+        --  db_upgrade.py  
+        --  db_downgrade.py  
 
 2. This will also create a virtual env called <project name> and install the below modules -
 
-    flask-login
-    flask-mail
-    flask-sqlalchemy
-    sqlalchemy-migrate
-    flask-whooshalchemy
-    flask-wtf
-    flask-babel
-    guess-language
-    flipflop
-    coverage
+    flask-login  
+    flask-mail  
+    flask-sqlalchemy  
+    sqlalchemy-migrate  
+    flask-whooshalchemy  
+    flask-wtf  
+    flask-babel  
+    guess-language  
+    flipflop  
+    coverage  
