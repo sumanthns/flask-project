@@ -20,15 +20,15 @@ Explanation
 
 1. This will create a skeleton project structure in this format:
 
-project_name -
-    app -
-        static -
+project_name/
+    app/
+        static/
         templates -
         __init__.py
         forms.py
         views.py
         models.py
-    db_repository -
+    db_repository/
     config.py
     run.py
     tests.py
