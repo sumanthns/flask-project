@@ -25,17 +25,11 @@ Explanation
             ----  static/  
             ----  templates/  
             ----  __init__.py  
-            ----  forms.py  
-            ----  views.py  
-            ----  models.py  
-        --  db_repository/  
-        --  config.py  
-        --  run.py  
-        --  tests.py  
-        --  db_create.py  
-        --  db_migrate.py  
-        --  db_upgrade.py  
-        --  db_downgrade.py  
+        --  run.sh
+        --  run_tests.py
+        --  manage.py
+        --  factory.py
+        --  settings.py
 
 2. This will also create a virtual env called <project name> and install the below modules -
 
