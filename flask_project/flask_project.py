@@ -92,7 +92,7 @@ class FlaskProjectCreator(object):
         self._create_file(os.path.join(self.dir_name, "factory.py"))
         self._create_file(os.path.join(self.dir_name, "manage.py"))
         self._create_file(os.path.join(self.dir_name, "settings.py"))
-        self._create_file(os.path.join(self.dir_name, "tests.py"))
+        self._create_file(os.path.join(self.dir_name, "testing.py"))
 
     def _create_file(self, name):
         template_file_name = name.split("/")[-1]

@@ -12,8 +12,8 @@ configs = {'development': DevelopmentConfig,
 }
 
 config = configs[os.environ.get("ENV", "development")]
+db = SQLAlchemy()
 app = AppFactory(config=config, name=__name__).get_app()
 #lm = LoginManager()
 #lm.init_app(app)
 #lm.login_view = 'login'
-db = SQLAlchemy(app)

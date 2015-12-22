@@ -25,12 +25,17 @@ class AppFactory(object):
     def _build_app(self):
         app = Flask(self.name)
         self._add_config(app)
+        self._init_db(app)
         self._register_blueprints(app)
         self._register_routes(app)
         return app
 
     def _add_config(self, app):
         app.config.from_object(self.config)
+
+    def _init_db(self, app):
+        from app import db
+        db.init_app(app)
 
     def get_app(self):
         app = self._build_app()
